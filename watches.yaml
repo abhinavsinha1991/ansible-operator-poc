@@ -1,0 +1,6 @@
+---
+- version: v1
+  group: example.com
+  kind: Nginx
+  #role: nginx
+  playbook: "/opt/ansible/playbooks/entry.yaml"

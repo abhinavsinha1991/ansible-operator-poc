@@ -1,0 +1,6 @@
+---
+
+- name: Create Nginx deployment for {{ meta.name }}
+  k8s:
+    state: "present"
+    definition: "{{ lookup('template', 'nginx-deployment.yaml') | from_yaml  }}"

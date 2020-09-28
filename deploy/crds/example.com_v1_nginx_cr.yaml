@@ -1,0 +1,7 @@
+apiVersion: example.com/v1
+kind: Nginx
+metadata:
+  name: example-nginx
+spec:
+  replicas: 3
+  imageTag: latest
